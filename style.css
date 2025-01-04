@@ -1,0 +1,120 @@
+*{
+    direction:rtl;/*rast be chap*/
+}
+body 
+{
+    font-family: tahoma;
+    margin:0;
+    padding:0;
+    background-color: rgb(164, 166, 168);
+}
+/*--------------------------------------*/
+header
+{
+    background-color: #fff;
+    color:slategray;
+    padding: 10px 20px 20px 30px;
+    text-align: center;
+}
+footer
+{
+    background-color:#ffffffea;
+    color:slategray;/*رنگ نوشته*/ 
+    text-align:center;/*وسط نوشته میشه*/
+    padding: 1%;
+    clear:both;
+    /*padding: bottom 30px;*/
+}
+.button1
+{
+    font-size: 20px;
+    width:100%;
+    text-align: center;
+    background-color: #fff;
+    color:#0c5f96;
+    border-radius: 10px;
+    border: #fff;
+    margin: 0px 0px 20px
+}
+.button2
+{
+    font-size: 20px;
+    width:100%;
+    text-align: center;
+    background-color: #fff;
+    color:black;
+    border-radius: 10px;
+    border: #fff;
+    margin:5px 0px 20px;
+}
+nav
+{
+    padding:1px 15% 10px 15%;
+    background-color:#0c5f96;
+    margin: 0px 0px;
+    color:#fff;
+}
+.nav1
+{
+    padding:1px 15% 10px 15%;
+    background-color:#f2f5f8;
+    margin: 0px 0px;
+    color:#404040;
+    text-align: center;
+}
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;/*فاصله بین هر محموعه*/
+    margin-top: 20px;
+}
+.item
+{
+    width: 30%;/*هرمجموعه 30 درصد عرض صفحه*/
+    text-align: center;/*تراز کردن محتوا*/
+    
+}
+.itme img
+{
+    width: 100%;/*عرض تصویر برابر با عرض مجموعه*/
+    height: auto;
+    border-radius: 5px;
+}
+img:hover {
+    transform: scale(1.1); /* بزرگ شدن هنگام هاور */
+}
+aside
+{
+    padding: 20px;
+    width: 20%;
+    float: right;
+    margin-bottom: 5px;
+}
+main
+{
+    width: 75%;
+    float: left;
+    margin-bottom: 5px;
+    padding: 20px;
+}
+section
+{
+    border: 1px solid #1c9941;
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+article
+{
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0px;
+}
+hr {
+    border: none;
+    border-top: 1px solid #3a3a3a79; /* ضخامت و رنگ خط */
+    width: 70%; /* طول خط */
+    margin:  auto;  /*فاصله بالا و پایین و وسط‌چین کردن */
+}
+
